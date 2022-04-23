@@ -11,9 +11,16 @@ body{
     line-height: 1.5;
 }
 img{
-    max-height: 200px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
+
+#first{
+    height: 200px;
+    width: 300px;
+}
+
 
 h1, h2{
     margin-bottom: 15px;
@@ -83,6 +90,32 @@ ul{
     height: 100%;
     justify-content: space-between;
     gap: 60px;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+}
+
+
+.information .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box{
+    flex:1;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 30px;
 }
 
 
